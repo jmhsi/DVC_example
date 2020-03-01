@@ -1,5 +1,6 @@
 # %load model.py
 import pandas as pd
+import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 from joblib import dump
@@ -26,4 +27,6 @@ dump(reg, 'linear_regressor.joblib')
 with open('mse.json', 'w+') as f:
     json.dump({'mse':mse}, f)
 with open('coefs.json', 'w+') as f:
-    json.dump({'coefs':reg.coef_.tolist()}, f)    
+    json.dump({'coefs':reg.coef_.tolist()}, f)
+with open('n_data.json', 'w+') as f:
+    json.dump({'n_data':len(df)}, f)
