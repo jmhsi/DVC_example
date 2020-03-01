@@ -1,23 +1,23 @@
-md5: 1db51328af2fef23296b5ffab76acc7b
+md5: 993dcf7270e20fe16fece828babb51bd
 cmd: python train.py
 wdir: ..
 deps:
-- md5: f19ad894eb9dec4daa50b61db27baa38
+- md5: 3f16cfebeb17c2c281b73673dcfa67f1
   path: cleaned_data.csv
 - md5: 90e2a4619747b4bb8238d7001b309c3f
   path: train.py
 outs:
-- md5: e48dd6c344d1d2eb7f46a8b22d8bc683
+- md5: 3768a41a2dc6c67b0e43df06f31a539c
   path: linear_regressor.joblib
   cache: true
   metric: false
   persist: false
-- md5: 663ea0f1a5939cdd5b164fe20b67fb3a
+- md5: 2ce12ccb7fa0bc7a0299745ed6bbed03
   path: mse.json
   cache: false
   metric: true
   persist: false
-- md5: 0cf4badb49988bd28492f976391e7500
+- md5: 0cc80eefe1c4e28edacda0c3527a198c
   path: coefs.json
   cache: false
   metric: true
