@@ -1,8 +1,8 @@
-md5: e9d25fce86652bf3867681fbd8c08566
+md5: 036a6a4d75ab7ec2045fdae6bf22e271
 cmd: python check_coeffs.py
 wdir: ..
 deps:
-- md5: 47531db965d2c6bb85244511a2991056
+- md5: 5359e142fc70dab7f9876f0d102429c9
   path: linear_regressor.joblib
 - md5: 5a4cf0634f28cb9b60bf72e34a673aa1
   path: check_coeffs.py
