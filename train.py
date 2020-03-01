@@ -15,6 +15,8 @@ y_valid = valid['target']
 X_valid = valid.drop('target', axis=1)
 
 reg = LinearRegression().fit(X_train,y_train)
+# add some noise to coefs. New model
+reg.coef_ += np.random.randn(4)/20
 y_pred = reg.predict(X_valid)
 mse = mean_squared_error(y_valid, y_pred)
 print(f'Mean Squared Error: {mse}')
