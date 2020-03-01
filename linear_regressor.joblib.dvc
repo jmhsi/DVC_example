@@ -1,7 +1,0 @@
-md5: de25f2be6a2f51bb6ca88713582824cd
-outs:
-- md5: fa456303987d03da6d11c9589eb78648
-  path: linear_regressor.joblib
-  cache: true
-  metric: false
-  persist: false

@@ -1,0 +1,19 @@
+md5: e0e5a3c448d01af12ecd57b59f187ad4
+cmd: python train.py
+wdir: ..
+deps:
+- md5: f3bef63a473ffc5fad1544acaea81000
+  path: cleaned_data.csv
+- md5: 9238a3fa61315cb7a335843850a2fd53
+  path: train.py
+outs:
+- md5: 8c18d03b8e490d646958a0a3ca5699b1
+  path: linear_regressor.joblib
+  cache: true
+  metric: false
+  persist: false
+- md5: fade564bf67b51af4c2518f3cff602fe
+  path: mse.json
+  cache: false
+  metric: true
+  persist: false

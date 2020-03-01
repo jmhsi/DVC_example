@@ -3,3 +3,4 @@
 /data.csv
 *.joblib
 /linear_regressor.joblib
+/cleaned_data.csv
