@@ -25,3 +25,5 @@ dump(reg, 'linear_regressor.joblib')
 # write metrics
 with open('mse.json', 'w+') as f:
     json.dump({'mse':mse}, f)
+with open('coefs.json', 'w+') as f:
+    json.dump({'coefs':reg.coef_.tolist()}, f)    
