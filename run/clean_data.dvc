@@ -1,13 +1,13 @@
-md5: 5ca3d272e2232af8ac93010705b05ba5
+md5: 5c864688120da19fc0c6d13a1a9a4f56
 cmd: python clean_data.py
 wdir: ..
 deps:
-- md5: c019bd3ade2211a4ee5a2bf3db13c610
+- md5: 0d7764d8ec7bb63cdcb758d06ac3129e
   path: data.csv
 - md5: b164f1994e3d0f86c1e3dc7ca703870d
   path: clean_data.py
 outs:
-- md5: 5bd2aa1361b510e5cf6949078a305e71
+- md5: 20582e88f30296cf7c690632cb9b2282
   path: cleaned_data.csv
   cache: true
   metric: false
