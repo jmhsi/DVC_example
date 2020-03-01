@@ -1,4 +1,4 @@
-md5: 1fed6e56be82df763164953edb3ea866
+md5: 6ab29ffdb94ecbc5fca617c5e21a8ef3
 cmd: python train.py
 wdir: ..
 deps:
@@ -14,6 +14,11 @@ outs:
   persist: false
 - md5: e84b408725bf8669ab152af5ca7b9852
   path: mse.json
+  cache: false
+  metric: true
+  persist: false
+- md5: 00e5479591d03a31ce1621ae5584bb70
+  path: coefs.json
   cache: false
   metric: true
   persist: false

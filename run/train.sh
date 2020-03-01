@@ -5,4 +5,5 @@ dvc run -d cleaned_data.csv \
         -o linear_regressor.joblib \
         -f run/train.dvc \
 	-M mse.json \
+	-M coefs.json \
         python train.py 
