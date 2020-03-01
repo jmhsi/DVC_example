@@ -1,0 +1,7 @@
+md5: 82ca1cf1c70f7201870b6a06c19b0b6f
+outs:
+- md5: aa78f9b1e6e3fd5a045a98b6d9b68e31
+  path: linear_regressor.joblib
+  cache: true
+  metric: false
+  persist: false
