@@ -6,4 +6,5 @@ dvc run -d cleaned_data.csv \
         -f run/train.dvc \
 	-M mse.json \
 	-M coefs.json \
+	-M n_data.json \
         python train.py 
