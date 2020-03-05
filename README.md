@@ -7,7 +7,7 @@ DVC example for Data Science in Context DATA 607
 `dvc repro run/check_coeffs.dvc` (dvc reproduces the pipeline up to the stage specified.)
 
 # If you need to alter stages of the pipeline
-# Here you define the stages, their dependencies, and their outputs
-# See dvc documentation for more info
+## Here you define the stages, their dependencies, and their outputs
+## See dvc documentation for more info
 make changes to `run/<stage-definition-file>.sh` files\
 `bash run/<stage-definition-file>.sh`
